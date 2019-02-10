@@ -88,6 +88,10 @@ class ViewController: UIViewController {
                 next = source[safe: point.0]?[safe: point.1]
             }
 
+            if next == nil {
+                possible.removeAll()
+            }
+
             if !possible.isEmpty {
                 possible.append((x, y))
             }
