@@ -12,6 +12,8 @@
 		C19310C02210686800C2B343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19310BE2210686800C2B343 /* Main.storyboard */; };
 		C19310C22210686B00C2B343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19310C12210686B00C2B343 /* Assets.xcassets */; };
 		C19310C52210686B00C2B343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19310C32210686B00C2B343 /* LaunchScreen.storyboard */; };
+		C19310CE221068BE00C2B343 /* OseroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19310CC221068BE00C2B343 /* OseroCell.swift */; };
+		C19310CF221068BE00C2B343 /* OseroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19310CD221068BE00C2B343 /* OseroCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C19310C12210686B00C2B343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C19310C42210686B00C2B343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C19310C62210686B00C2B343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19310CC221068BE00C2B343 /* OseroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OseroCell.swift; sourceTree = "<group>"; };
+		C19310CD221068BE00C2B343 /* OseroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OseroCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C19310C12210686B00C2B343 /* Assets.xcassets */,
 				C19310C32210686B00C2B343 /* LaunchScreen.storyboard */,
 				C19310C62210686B00C2B343 /* Info.plist */,
+				C19310CC221068BE00C2B343 /* OseroCell.swift */,
+				C19310CD221068BE00C2B343 /* OseroCell.xib */,
 			);
 			path = "osero-1hour-challenge";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				C19310C52210686B00C2B343 /* LaunchScreen.storyboard in Resources */,
 				C19310C22210686B00C2B343 /* Assets.xcassets in Resources */,
+				C19310CF221068BE00C2B343 /* OseroCell.xib in Resources */,
 				C19310C02210686800C2B343 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19310CE221068BE00C2B343 /* OseroCell.swift in Sources */,
 				C19310BD2210686800C2B343 /* ViewController.swift in Sources */,
 				C19310BB2210686800C2B343 /* AppDelegate.swift in Sources */,
 			);
